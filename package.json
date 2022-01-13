@@ -1,0 +1,18 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "This is a tiny translate cli tool",
+  "main": "translate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg translate.js -t \"node16-win-x64\""
+  },
+  "author": "Jiwen Young",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.0.0",
+    "commander": "^8.3.0"
+  },
+  "type": "commonjs"
+}
